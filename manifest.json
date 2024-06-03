@@ -1,0 +1,21 @@
+{
+    "entry": "DynamicLights.js",
+    "name": "DynamicLights",
+    "type": "lse-quickjs",
+    "version":"1.0.0",
+    "description":"普普通通的发包移动光源",
+    "author":"小小的子沐呀 QQ:1756150362",
+    "dependencies": [
+        {
+            "name": "legacy-script-engine-quickjs"
+        },
+        {
+            "name": "GMLIB",
+            "version":"0.12.6"
+        },
+        {
+            "name": "GMLIB-LegacyRemoteCallApi",
+            "version":"0.12.6"
+        }
+    ]
+}
