@@ -24,7 +24,8 @@ const CONFIG = new JsonConfigFile('./plugins/DynamicLights/Config.json', JSON.st
 }));
 
 /** 光明方块的运行ID @type {Number} */
-const lightBlockRuntimeId = ll.import('GMLIB_API', 'getBlockRuntimeId')('minecraft:light_block');
+let lightBlockRuntimeId;
+mc.listen('onServerStarted', () => lightBlockRuntimeId = ll.import('GMLIB_API', 'getBlockRuntimeId')('minecraft:light_block'));
 
 /** 玩家被发包过的坐标 @type {Object.<string, IntPos>} */
 let lightBlockPos = {};

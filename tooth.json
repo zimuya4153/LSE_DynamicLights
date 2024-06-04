@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/zimuya4153/LSE_DynamicLights",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "info": {
         "name": "LSE_DynamicLights",
         "description": "普普通通的发包移动光源插件",
@@ -15,7 +15,7 @@
             "legacyscriptengine"
           ]
     },
-    "asset_url": "https://github.com/zimuya4153/LSE_DynamicLights/releases/download/v1.0.0/LSE_DynamicLights-1.0.0.zip",
+    "asset_url": "https://github.com/zimuya4153/LSE_DynamicLights/releases/download/v1.0.1/LSE_DynamicLights-1.0.1.zip",
     "dependencies": {
         "github.com/GroupMountain/GMLIB": ">=0.12.6",
         "github.com/GroupMountain/GMLIB-LegacyRemoteCallApi": ">=0.12.6"
